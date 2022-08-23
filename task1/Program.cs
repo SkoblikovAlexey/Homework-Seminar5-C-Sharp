@@ -53,7 +53,7 @@ int[] array = CreateArray(num);
 
 PrintArray(array);
 Console.WriteLine();
-Console.WriteLine(SortArray(array));
+Console.WriteLine($" Количество цифр в массиве от 10 до 99 включительно равно {SortArray(array)}");
 Console.WriteLine("Для завершения введите end, для продолжения - любой символ");
     string a = Console.ReadLine();
     if (a == "end")
