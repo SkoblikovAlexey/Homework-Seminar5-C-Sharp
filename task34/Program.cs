@@ -25,8 +25,7 @@ void PrintArray(int[] arr)
     }
     Console.WriteLine(arr[length - 1] + "]");
 }
-Console.WriteLine("Введите количество элементов массива.");
-int N = Convert.ToInt32(Console.ReadLine());
+
 
 int CountEvenNumbers(int[] arr) {
     int result = 0;
@@ -35,6 +34,9 @@ int CountEvenNumbers(int[] arr) {
     }
     return result;
 }
+
+Console.WriteLine("Введите количество элементов массива.");
+int N = Convert.ToInt32(Console.ReadLine());
 
 int[] array = CreateArray(N);
 PrintArray(array);
