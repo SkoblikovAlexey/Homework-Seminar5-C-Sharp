@@ -7,31 +7,6 @@
 
 while (true)
 {
-
-    // Console.WriteLine("Введите пятизначное число");
-
-    // int number = Convert.ToInt32(Console.ReadLine());
-
-
-    // bool check(int num)
-    // {
-    //     string str = Convert.ToString(num);
-    //     int length = str.Length - 1;
-    //     bool result = true;
-    //     for (int i = 0; i < length / 2; i++)
-    //     {
-    //         if (str[i] != str[length - i])
-    //         {
-    //             result = false;
-    //             break;
-    //         }
-    //         else
-    //         {
-    //             result = true;
-    //         }
-    //     }
-    //     return result;
-    // }
     int[] CreateArray(int N)
     {
         int[] arr = new int[N];
